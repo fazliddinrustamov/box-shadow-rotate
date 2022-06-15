@@ -1,0 +1,15 @@
+.middle-div {
+  background-color: bisque;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+  width: 150px;
+  height: 150px;
+  box-shadow: 150px 0px green, -150px 0px blue, 0px 150px yellowgreen, 0px -150px yellow, 150px 150px brown, 150px -150px burlywood,-150px 150px lightcoral, -150px -150px lightskyblue;
+  transition: transform 2.5s;
+}
+
+.middle-div:hover {
+  transform: rotate(360deg);
+}
